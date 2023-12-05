@@ -1,0 +1,42 @@
+*{
+  box-sizing:border-box;
+  text-decoration:none;
+  
+}
+.app{
+  background-color: #fff;
+  padding: 30px 50px 50px 50px;
+}
+.navBar{
+  background-color:#ffffff;
+  padding:20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-bottom:.5px solid #d6d6d6;
+  
+}
+.navBar img{
+  cursor:pointer;
+  margin-left:30px
+}
+.addIcon{
+  margin-top:-15px;
+}
+.labelCategory{
+  min-width:100px
+}
+.not_found{
+  background-color:#03053B;
+  height:100vh;
+  color: white;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.not_found >div>h1{
+  font-size:4rem
+}
+.not_found >div>div>p{
+  color:#4A97B3;
+  font-size:2rem
+
+}
