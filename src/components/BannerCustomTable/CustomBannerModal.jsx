@@ -2,7 +2,7 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Modal from 'react-bootstrap/Modal';
 import { useReducer, useState, useEffect } from "react"
-import { reducer, removeEmptyValuesFromObject } from "./../../utils/Global"
+import { reducer, removeEmptyValuesFromObject, ImageNameGenerator } from "./../../utils/Global"
 const CustomUserModal = ({ onHide = () => { }, show, handleDelete = () => { }, handleUpdate = () => { }, forEdit, forDelete, item, useDelete = () => { }, collectionName = "" ,useDeleteSignlePhoto = ()=>{} , useUploadPic = () => { }}) => {
 
   const initialState = {
